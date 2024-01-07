@@ -47,3 +47,45 @@ header{
       font-size: 20px;
       font-weight: 600;
 }
+
+/* main section here */
+
+.year-section{
+      display: flex;
+      width: 1600px;
+      height: 3229px;
+}
+.year-section img{
+      margin-left: 250px;
+      margin-top: 140px;
+}
+.year-text{
+      margin-top: 370px;
+      margin-left: 100px;
+}
+.year-title{
+      color: var(--Dark-01, #151414);
+      font-size: 40px;
+      font-weight: 700;
+}
+.year-desc{
+      color: var(--Dark-02, #444343);
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26px; 
+      padding-top: 24px;
+}
+/* list-style: url('/media/examples/rocket.svg'); */
+ul{
+      padding-left: 30px;
+      list-style: url(/images/icons/icon.svg);
+      padding-top: 15px;
+}
+ul li{
+      color: var(--Dark-02, #444343);
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26px;
+      padding-top: 4px;
+      
+}
