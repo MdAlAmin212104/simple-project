@@ -52,8 +52,7 @@ header{
 
 .year-section{
       display: flex;
-      width: 1600px;
-      height: 3229px;
+      margin-bottom: 200px;
 }
 .year-section img{
       margin-left: 250px;
@@ -88,4 +87,56 @@ ul li{
       line-height: 26px;
       padding-top: 4px;
       
+}
+
+
+/* plan section here */
+.plan-title{
+      color: var(--Dark-01, #151414);
+      text-align: center;
+      font-size: 40px;
+      font-weight: 700;
+
+}
+.plan-items{
+      display: flex;
+      justify-content: space-around;
+      padding-top: 50px;
+      margin: 0 230px;
+}
+.plan-items img{
+      margin-left: 50px;
+}
+.items-title{
+      color: var(--Dark-01, #151414);
+      text-align: center;
+      font-size: 30px;
+      font-weight: 700;
+}
+.items-desc{
+      color: var(--Dark-03, #737272);
+      text-align: center;
+      font-size: 25px;
+      font-weight: 500;
+      padding-bottom: 130px;
+}
+
+
+.contact-section{
+      background-image: url(images/gradient1.png), url(images/watch.png);
+      background-repeat: no-repeat, no-repeat;
+      height: 300px;
+      margin: 0 230px;
+      margin-bottom: 130px;
+}
+.contact-title{
+      color: #FFF;
+      font-size: 40px;
+      font-weight: 700;
+      padding-top: 60px;
+      padding-left: 56px;
+}
+.call{
+      margin-top: 25px;
+      margin-left: 56px;
 }
